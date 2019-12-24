@@ -9,3 +9,7 @@ npm install -g @angular/cli
 # routing?: y
 # stylesheet style?: scss
 ng serve
+# ng add @angular/material
+# theme?: Indigo/pink
+# hammerjs?: yes
+# browser animations?: yes

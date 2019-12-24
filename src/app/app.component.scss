@@ -1,0 +1,130 @@
+@import url(//https://fonts.googleapis.com/icon?family=Material+Icons);
+* {
+    font-family: 'Garamond', 'Georgia', 'serif';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 8px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.card {
+    align-items: center;
+    background-color: #3f51b5;
+    border: 1px solid #eee;
+    color: white;
+    border-radius: 4px;
+    height: 40px;
+    justify-content: center;
+    line-height: 24px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    transition: all 0.2s ease-in-out;
+    width: 200px;
+}
+
+.card.card-small {
+    height: 16px;
+    width: 168px;
+}
+
+a,
+a:visited,
+a:hover {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+
+    .card-container > *:not(.circle-link) ,
+    .terminal {
+        width: 100%;
+    }
+
+    .card:not(.highlight-card) {
+        height: 16px;
+        margin: 8px 0;
+    }
+
+    .card.highlight-card span {
+        margin-left: 72px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+}
+
+// .toolbar {
+//     align-items: center;
+//     background-color: #007bf7;
+//     color: white;
+//     display: flex;
+//     font-weight: 600;
+//     height: 60px;
+//     margin: 0px;
+// }
+
+.sidenav {
+    background: #3f51b5;
+    display: inline-block;
+    margin: 8px 0px;
+    position: relative;
+    width: 200px;
+}
+
+.sidenav-options {
+    align-items: center;
+    border-radius: 4px;
+    color: white;
+    height: 40px;
+    justify-content: center;
+    line-height: 24px;
+    margin: 0px 8px;
+    padding: 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+.content {
+    align-items: center;
+    margin: 32px auto;
+    max-width: 960px;
+    padding: 0 16px;
+}
+
+.footer-container {
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.footer-content {
+    align-items: center;
+    line-height: 20px;
+}
+
+.top-div-left{
+    background-color: #ff8b00;
+  }
+
+.top-div-right{
+    background-color: #b80cb3;
+}
+
+.bottom-div{
+    background-color: #0c9cb8;
+}
