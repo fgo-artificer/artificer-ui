@@ -7,8 +7,9 @@ Angular SPA to act as the User Interface for the Artificer application
 ### Getting Started
 
 1. `npm install -g @angular/cli`
-1. `npm install`
-2. `ng serve`
+2. `npm install`
+3. `ng serve --open 0.0.0.0`
+4. `http://10.0.0.21:4200`
 
 ## Generated
 
